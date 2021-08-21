@@ -229,6 +229,22 @@ line-height: 1.8;
     background-color: #f6f6f6;
 
     }
+    @media (min-width:1300px){
+
+          .feuters{
+  
+    overflow: hidden;
+
+    }
+     .feuters .container{
+         
+         position: relative;
+         left: 150px;
+        
+        
+    }
+   
+    }
     
     .feuters .container{
            display: grid;
@@ -301,6 +317,23 @@ line-height: 1.8;
     right: 7px;
     z-index: -1;
 }
+  @media (min-width:1300px){
+.services{
+    overflow: hidden;
+}
+   .services .container{
+       position: relative;
+       left: 150px;
+   }
+     .services .container .special_heading {
+        position: relative;
+        right: 150px;
+    }
+     .services .container .head{
+          position: relative;
+        right: 150px;
+     }
+    }
 @media (max-width:480px){
         .services .services-content  img{
         width: 150px;
@@ -349,7 +382,24 @@ line-height: 1.8;
          
      }
 
+ @media (min-width:1300px){
+.portoflio{
+    overflow: hidden;
+}
+   .portoflio .container{
+       position: relative;
+       left: 150px;
+   }
+    .portoflio .container .special_heading {
+        position: relative;
+        right: 150px;
+    }
+     .portoflio .container .head{
+          position: relative;
+        right: 150px;
+     }
 
+    }
 .project img{
    
     justify-content: space-evenly;
