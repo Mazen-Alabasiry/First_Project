@@ -191,7 +191,7 @@
     /*start landing  */
     .landing{
         margin: 0;
-        background-image: url(../template_1/images/mountain.jpg);
+        background-image: url(../images/mountain.jpg);
         height: calc(100vh - 64px );
     background-size: cover;
     position: relative;
