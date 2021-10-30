@@ -273,6 +273,23 @@
     </div>
 
 
+    <script >
+        let headerUL=document.querySelector('.header .links ul');
+        let headerLI=document.querySelectorAll('.header .links ul li');
+        let icon=document.querySelector('.header .links .icon ');
+        let secondLine=document.querySelector('.header .links .icon span:nth-child(2)')
+
+
+        icon.addEventListener('click',function(){
+            headerUL.classList.toggle('show');
+            secondLine.classList.toggle('clicked')
+        })
+        headerLI.forEach(li=>{
+            li.onclick=function(){
+               icon.click()
+            }
+        })
+    </script>
 </body>
 
 </html>
